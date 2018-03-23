@@ -6,7 +6,7 @@ console.log("Environment:", CONFIG.app)
 const express 		= require('express');
 const logger 	    = require('morgan');
 const bodyParser 	= require('body-parser');
-const passport      = require('passport');
+const passport    = require('passport');
 
 const v1 = require('./routes/v1');
 
